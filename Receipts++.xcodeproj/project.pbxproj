@@ -14,6 +14,12 @@
 		C7A2E4D61BAB49E000F8AA1E /* Receipts__.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4D41BAB49E000F8AA1E /* Receipts__.xcdatamodeld */; };
 		C7A2E4D81BAB49E000F8AA1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7A2E4D71BAB49E000F8AA1E /* Assets.xcassets */; };
 		C7A2E4DB1BAB49E000F8AA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7A2E4D91BAB49E000F8AA1E /* LaunchScreen.storyboard */; };
+		C7A2E4E41BAB4EFE00F8AA1E /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4E31BAB4EFE00F8AA1E /* CoreDataStack.m */; settings = {ASSET_TAGS = (); }; };
+		C7A2E4ED1BAB506E00F8AA1E /* Tag+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4E61BAB506E00F8AA1E /* Tag+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		C7A2E4EE1BAB506E00F8AA1E /* Tag.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4E81BAB506E00F8AA1E /* Tag.m */; settings = {ASSET_TAGS = (); }; };
+		C7A2E4EF1BAB506E00F8AA1E /* Receipt+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4EA1BAB506E00F8AA1E /* Receipt+CoreDataProperties.m */; settings = {ASSET_TAGS = (); }; };
+		C7A2E4F01BAB506E00F8AA1E /* Receipt.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E4EC1BAB506E00F8AA1E /* Receipt.m */; settings = {ASSET_TAGS = (); }; };
+		C7A2E51D1BAB644400F8AA1E /* AddEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A2E51C1BAB644400F8AA1E /* AddEditViewController.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +34,19 @@
 		C7A2E4D71BAB49E000F8AA1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7A2E4DA1BAB49E000F8AA1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7A2E4DC1BAB49E000F8AA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A2E4E21BAB4EFE00F8AA1E /* CoreDataStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		C7A2E4E31BAB4EFE00F8AA1E /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		C7A2E4E51BAB506E00F8AA1E /* Tag+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tag+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C7A2E4E61BAB506E00F8AA1E /* Tag+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Tag+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C7A2E4E71BAB506E00F8AA1E /* Tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tag.h; sourceTree = "<group>"; };
+		C7A2E4E81BAB506E00F8AA1E /* Tag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tag.m; sourceTree = "<group>"; };
+		C7A2E4E91BAB506E00F8AA1E /* Receipt+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Receipt+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C7A2E4EA1BAB506E00F8AA1E /* Receipt+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Receipt+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C7A2E4EB1BAB506E00F8AA1E /* Receipt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Receipt.h; sourceTree = "<group>"; };
+		C7A2E4EC1BAB506E00F8AA1E /* Receipt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Receipt.m; sourceTree = "<group>"; };
+		C7A2E4F41BAB52D200F8AA1E /* Strings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Strings.h; sourceTree = "<group>"; };
+		C7A2E51B1BAB644400F8AA1E /* AddEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddEditViewController.h; sourceTree = "<group>"; };
+		C7A2E51C1BAB644400F8AA1E /* AddEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddEditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +79,13 @@
 		C7A2E4C71BAB49E000F8AA1E /* Receipts++ */ = {
 			isa = PBXGroup;
 			children = (
+				C7A2E4F41BAB52D200F8AA1E /* Strings.h */,
 				C7A2E4CB1BAB49E000F8AA1E /* AppDelegate.h */,
 				C7A2E4CC1BAB49E000F8AA1E /* AppDelegate.m */,
-				C7A2E4CE1BAB49E000F8AA1E /* ViewController.h */,
-				C7A2E4CF1BAB49E000F8AA1E /* ViewController.m */,
-				C7A2E4D11BAB49E000F8AA1E /* Main.storyboard */,
-				C7A2E4D71BAB49E000F8AA1E /* Assets.xcassets */,
-				C7A2E4D91BAB49E000F8AA1E /* LaunchScreen.storyboard */,
+				C7A2E4F11BAB507800F8AA1E /* Model */,
+				C7A2E4F21BAB508400F8AA1E /* Controller */,
+				C7A2E4F31BAB50AE00F8AA1E /* View */,
 				C7A2E4DC1BAB49E000F8AA1E /* Info.plist */,
-				C7A2E4D41BAB49E000F8AA1E /* Receipts__.xcdatamodeld */,
 				C7A2E4C81BAB49E000F8AA1E /* Supporting Files */,
 			);
 			path = "Receipts++";
@@ -80,6 +97,45 @@
 				C7A2E4C91BAB49E000F8AA1E /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7A2E4F11BAB507800F8AA1E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2E4D41BAB49E000F8AA1E /* Receipts__.xcdatamodeld */,
+				C7A2E4E21BAB4EFE00F8AA1E /* CoreDataStack.h */,
+				C7A2E4E31BAB4EFE00F8AA1E /* CoreDataStack.m */,
+				C7A2E4E91BAB506E00F8AA1E /* Receipt+CoreDataProperties.h */,
+				C7A2E4EA1BAB506E00F8AA1E /* Receipt+CoreDataProperties.m */,
+				C7A2E4EB1BAB506E00F8AA1E /* Receipt.h */,
+				C7A2E4EC1BAB506E00F8AA1E /* Receipt.m */,
+				C7A2E4E51BAB506E00F8AA1E /* Tag+CoreDataProperties.h */,
+				C7A2E4E61BAB506E00F8AA1E /* Tag+CoreDataProperties.m */,
+				C7A2E4E71BAB506E00F8AA1E /* Tag.h */,
+				C7A2E4E81BAB506E00F8AA1E /* Tag.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C7A2E4F21BAB508400F8AA1E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2E51B1BAB644400F8AA1E /* AddEditViewController.h */,
+				C7A2E51C1BAB644400F8AA1E /* AddEditViewController.m */,
+				C7A2E4CE1BAB49E000F8AA1E /* ViewController.h */,
+				C7A2E4CF1BAB49E000F8AA1E /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7A2E4F31BAB50AE00F8AA1E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7A2E4D11BAB49E000F8AA1E /* Main.storyboard */,
+				C7A2E4D71BAB49E000F8AA1E /* Assets.xcassets */,
+				C7A2E4D91BAB49E000F8AA1E /* LaunchScreen.storyboard */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,10 +208,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7A2E4ED1BAB506E00F8AA1E /* Tag+CoreDataProperties.m in Sources */,
+				C7A2E4E41BAB4EFE00F8AA1E /* CoreDataStack.m in Sources */,
 				C7A2E4D61BAB49E000F8AA1E /* Receipts__.xcdatamodeld in Sources */,
+				C7A2E4EE1BAB506E00F8AA1E /* Tag.m in Sources */,
 				C7A2E4D01BAB49E000F8AA1E /* ViewController.m in Sources */,
 				C7A2E4CD1BAB49E000F8AA1E /* AppDelegate.m in Sources */,
+				C7A2E4EF1BAB506E00F8AA1E /* Receipt+CoreDataProperties.m in Sources */,
 				C7A2E4CA1BAB49E000F8AA1E /* main.m in Sources */,
+				C7A2E51D1BAB644400F8AA1E /* AddEditViewController.m in Sources */,
+				C7A2E4F01BAB506E00F8AA1E /* Receipt.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
